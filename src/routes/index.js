@@ -6,10 +6,15 @@ router.get('/', (req, res) => {
 });
 
 router.get('/contact', (req, res) => {
-    res.render('contact', { title: 'Inic' });
+    res.render('contact', { title: 'Contacto' });
 });
 
+router.get('/about', (req, res) => {
+    res.render('about', { title: 'Acerca de' });
+});
 
-
+router.get('/service', (req, res) => {
+    res.render('service', { title: 'Servicios' });
+});
 
 module.exports = router;
