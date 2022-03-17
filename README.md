@@ -1,3 +1,2 @@
-# JR-Planet-Web
-# JRPlanet
-# JRPlanet
+# JR-Planet Web
+# Pagina web oficial de JRDelZur
