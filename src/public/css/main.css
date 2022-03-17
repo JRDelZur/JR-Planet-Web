@@ -7,3 +7,14 @@ background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10
     font-family: 'Spicy Rice', cursive;
     color: #fff;
 }
+body ::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track{
+    background: #6666ff;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #333399;
+    border-radius: 20px;
+    border: 3px solid #6666ff;
+}
