@@ -17,4 +17,8 @@ router.get('/service', (req, res) => {
     res.render('service', { title: 'Servicios' });
 });
 
+router.get('/log', (req, res) => {
+    res.render('log.html', { title: 'Registrate' });
+});
+
 module.exports = router;
